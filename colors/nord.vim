@@ -12,9 +12,9 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "nord"
-let s:nord_vim_version="0.13.0"
-set background=dark
+let g:colors_name = "nordlicht"
+let s:nord_vim_version="0.1.0"
+set background=light
 
 let s:nord0_gui = "#2E3440"
 let s:nord1_gui = "#3B4252"
@@ -165,12 +165,12 @@ call s:hi("Italic", "", "", "", "", s:italic, "")
 call s:hi("Underline", "", "", "", "", s:underline, "")
 
 "+--- Editor ---+
-call s:hi("ColorColumn", "", s:nord1_gui, "NONE", s:nord1_term, "", "")
+call s:hi("ColorColumn", "", s:nord5_gui, "NONE", s:nord5_term, "", "")
 call s:hi("Cursor", s:nord0_gui, s:nord4_gui, "", "NONE", "", "")
-call s:hi("CursorLine", "", s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
+call s:hi("CursorLine", "", s:nord5_gui, "NONE", s:nord5_term, "NONE", "")
 call s:hi("Error", s:nord0_gui, s:nord11_gui, "", s:nord11_term, "", "")
 call s:hi("iCursor", s:nord0_gui, s:nord4_gui, "", "NONE", "", "")
-call s:hi("LineNr", s:nord3_gui, s:nord0_gui, s:nord3_term, "NONE", "", "")
+call s:hi("LineNr", s:nord3_gui, s:nord5_gui, s:nord3_term, s:nord5_term, "", "")
 call s:hi("MatchParen", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "", "")
 call s:hi("NonText", s:nord2_gui, "", s:nord3_term, "", "", "")
 call s:hi("Normal", s:nord4_gui, s:nord0_gui, "NONE", "NONE", "", "")
@@ -183,8 +183,8 @@ call s:hi("SpellBad", s:nord11_gui, s:nord0_gui, s:nord11_term, "NONE", "undercu
 call s:hi("SpellCap", s:nord13_gui, s:nord0_gui, s:nord13_term, "NONE", "undercurl", s:nord13_gui)
 call s:hi("SpellLocal", s:nord5_gui, s:nord0_gui, s:nord5_term, "NONE", "undercurl", s:nord5_gui)
 call s:hi("SpellRare", s:nord6_gui, s:nord0_gui, s:nord6_term, "NONE", "undercurl", s:nord6_gui)
-call s:hi("Visual", "", s:nord2_gui, "", s:nord1_term, "", "")
-call s:hi("VisualNOS", "", s:nord2_gui, "", s:nord1_term, "", "")
+call s:hi("Visual", "", s:nord12_gui, "", s:nord12_term, "", "")
+call s:hi("VisualNOS", "", s:nord12_gui, "", s:nord12_term, "", "")
 "+- Neovim Support -+
 call s:hi("healthError", s:nord11_gui, s:nord1_gui, s:nord11_term, s:nord1_term, "", "")
 call s:hi("healthSuccess", s:nord14_gui, s:nord1_gui, s:nord14_term, s:nord1_term, "", "")
@@ -217,9 +217,8 @@ if has('nvim')
 endif
 
 "+--- Gutter ---+
-call s:hi("CursorColumn", "", s:nord1_gui, "NONE", s:nord1_term, "", "")
 if g:nord_cursor_line_number_background == 0
-  call s:hi("CursorLineNr", s:nord4_gui, s:nord0_gui, "NONE", "", "NONE", "")
+  call s:hi("CursorLineNr", s:nord4_gui, s:nord0_gui, s:nord5_term, s:nord3_term, "NONE", "")
 else
   call s:hi("CursorLineNr", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
 endif
@@ -263,7 +262,7 @@ call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "N
 call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
 
 if g:nord_bold_vertical_split_line == 0
-  call s:hi("VertSplit", s:nord2_gui, s:nord0_gui, s:nord3_term, "NONE", "NONE", "")
+  call s:hi("VertSplit", s:nord5_gui, s:nord5_gui, s:nord5_term, s:nord5_term, "NONE", "")
 else
   call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
 endif
