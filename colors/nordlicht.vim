@@ -35,7 +35,9 @@ let s:nordlicht14_gui = "#A3BE8C"
 let s:nordlicht15_gui = "#B48EAD"
 
 let s:nordlicht1_term = "0"
+let s:nordlicht2_term = "9"
 let s:nordlicht3_term = "8"
+let s:nordlicht4_term = "8"
 let s:nordlicht5_term = "7"
 let s:nordlicht6_term = "15"
 let s:nordlicht7_term = "14"
@@ -47,6 +49,8 @@ let s:nordlicht12_term = "11"
 let s:nordlicht13_term = "3"
 let s:nordlicht14_term = "2"
 let s:nordlicht15_term = "5"
+
+" 9 10 13
 
 let s:nordlicht3_gui_brightened = [
   \ s:nordlicht3_gui,
