@@ -35,9 +35,9 @@ let s:nordlicht14_gui = "#A3BE8C"
 let s:nordlicht15_gui = "#B48EAD"
 
 let s:nordlicht1_term = "0"
-let s:nordlicht2_term = "9"
-let s:nordlicht3_term = "8"
-let s:nordlicht4_term = "8"
+let s:nordlicht2_term = "8"
+let s:nordlicht3_term = "6"
+let s:nordlicht4_term = "7"
 let s:nordlicht5_term = "7"
 let s:nordlicht6_term = "15"
 let s:nordlicht7_term = "14"
@@ -178,8 +178,8 @@ call s:hi("LineNr", s:nordlicht3_gui, s:nordlicht5_gui, s:nordlicht3_term, s:nor
 call s:hi("MatchParen", s:nordlicht8_gui, s:nordlicht3_gui, s:nordlicht8_term, s:nordlicht3_term, "", "")
 call s:hi("NonText", s:nordlicht2_gui, "", s:nordlicht3_term, "", "", "")
 call s:hi("Normal", s:nordlicht4_gui, s:nordlicht0_gui, "NONE", "NONE", "", "")
-call s:hi("PMenu", s:nordlicht4_gui, s:nordlicht2_gui, s:nordlicht4_gui, s:nordlicht2_term, "NONE", "")
-call s:hi("PmenuSbar", s:nordlicht4_gui, s:nordlicht2_gui, s:nordlicht4_gui, s:nordlicht2_term, "", "")
+call s:hi("PMenu", s:nordlicht4_gui, s:nordlicht2_gui, s:nordlicht4_term, s:nordlicht2_term, "NONE", "")
+call s:hi("PmenuSbar", s:nordlicht4_gui, s:nordlicht2_gui, s:nordlicht4_term, s:nordlicht2_term, "", "")
 call s:hi("PMenuSel", s:nordlicht8_gui, s:nordlicht3_gui, s:nordlicht8_term, s:nordlicht3_term, "", "")
 call s:hi("PmenuThumb", s:nordlicht8_gui, s:nordlicht3_gui, "NONE", s:nordlicht3_term, "", "")
 call s:hi("SpecialKey", s:nordlicht3_gui, "", s:nordlicht3_term, "", "", "")
