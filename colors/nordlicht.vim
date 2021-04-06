@@ -183,7 +183,7 @@ call s:hi("PmenuSbar", s:nordlicht4_gui, s:nordlicht2_gui, s:nordlicht4_term, s:
 call s:hi("PMenuSel", s:nordlicht8_gui, s:nordlicht3_gui, s:nordlicht8_term, s:nordlicht3_term, "", "")
 call s:hi("PmenuThumb", s:nordlicht8_gui, s:nordlicht3_gui, "NONE", s:nordlicht3_term, "", "")
 call s:hi("SpecialKey", s:nordlicht3_gui, "", s:nordlicht3_term, "", "", "")
-call s:hi("QuickFixLine", s:nordlicht0_gui, s:nordlicht11_gui, "", s:nordlicht11_term, "", "")
+call s:hi("QuickFixLine", s:nordlicht0_gui, s:nordlicht12_gui, "", s:nordlicht12_term, "", "")
 call s:hi("SpellBad", s:nordlicht11_gui, s:nordlicht0_gui, s:nordlicht11_term, "NONE", "undercurl", s:nordlicht11_gui)
 call s:hi("SpellCap", s:nordlicht13_gui, s:nordlicht0_gui, s:nordlicht13_term, "NONE", "undercurl", s:nordlicht13_gui)
 call s:hi("SpellLocal", s:nordlicht5_gui, s:nordlicht0_gui, s:nordlicht5_term, "NONE", "undercurl", s:nordlicht5_gui)
@@ -256,7 +256,7 @@ call s:hi("WildMenu", s:nordlicht8_gui, s:nordlicht1_gui, s:nordlicht8_term, s:n
 
 "+--- Search ---+
 call s:hi("IncSearch", s:nordlicht6_gui, s:nordlicht10_gui, s:nordlicht6_term, s:nordlicht10_term, s:underline, "")
-call s:hi("Search", s:nordlicht1_gui, s:nordlicht8_gui, s:nordlicht1_term, s:nordlicht8_term, "NONE", "")
+call s:hi("Search", s:nordlicht1_gui, s:nordlicht8_gui, s:nordlicht1_term, s:nordlicht9_term, "NONE", "")
 
 "+--- Tabs ---+
 call s:hi("TabLine", s:nordlicht4_gui, s:nordlicht1_gui, "NONE", s:nordlicht1_term, "NONE", "")
