@@ -281,7 +281,7 @@ call s:hi("Comment", s:nordlicht3_gui_bright, "", s:nordlicht3_term, "", s:itali
 call s:hi("Conditional", s:nordlicht9_gui, "", s:nordlicht9_term, "", "", "")
 call s:hi("Constant", s:nordlicht4_gui, "", "NONE", "", "", "")
 call s:hi("Define", s:nordlicht9_gui, "", s:nordlicht9_term, "", "", "")
-call s:hi("Delimiter", s:nordlicht6_gui, "", s:nordlicht6_term, "", "", "")
+call s:hi("Delimiter", s:nordlicht6_gui, "", s:nordlicht10_term, "", "", "")
 call s:hi("Exception", s:nordlicht9_gui, "", s:nordlicht9_term, "", "", "")
 call s:hi("Float", s:nordlicht15_gui, "", s:nordlicht15_term, "", "", "")
 call s:hi("Function", s:nordlicht8_gui, "", s:nordlicht8_term, "", "", "")
